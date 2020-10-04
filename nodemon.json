@@ -1,0 +1,6 @@
+{
+  "exec": "tsoa spec-and-routes && ts-node -r tsconfig-paths/register src/app.ts",
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["routes.ts", "swagger.json"]
+}
